@@ -1,0 +1,42 @@
+.accordion-btn{
+    width: 40px;
+    height: 40px;
+}
+.accordion-btn[aria-expanded="true"]::after{
+    content: "-";
+}
+.accordion-btn[aria-expanded="false"]::after{
+    content: "+";
+}
+.accordion-item:has(.accordion-btn[aria-expanded="true"]){
+     background-color: greenyellow;
+}
+.services{
+    display: flex;
+}
+.services>.border{
+    background-color: greenyellow;
+}
+.working{
+    background-color: greenyellow;
+}
+.contact{
+    background-color: greenyellow;
+}
+.pay{
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.black{
+    background-color: black;
+    width: 100%;
+}
+.form{
+    border-radius: 20px;
+    background-color: rgb(249, 243, 243);
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+}
